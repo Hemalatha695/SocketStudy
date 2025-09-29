@@ -68,7 +68,7 @@ data = client_socket.recv(1024).decode()
 print("Client says:", data)
 client_socket.send("Hello from server!".encode())
 client_socket.close()
-server_socket.close()
+server_socket.close() 
 
 client.py
 
